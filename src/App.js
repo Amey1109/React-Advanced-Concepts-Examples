@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import ButtonCounter from "./components/HOC/ButtonCounter";
+import HoverCounter from "./components/HOC/HoverCounter";
+import ContextProvider from "./components/Context/ContextProvider";
+import ContextUser from "./components/Context/ContextUser";
+import Parent from "./components/PassingDataFromChildToParent/Parent";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ButtonCounter />
+      <HoverCounter />
+
+      <ContextProvider>
+        <ContextUser />
+      </ContextProvider>
+
+      <Parent />
     </div>
   );
 }
