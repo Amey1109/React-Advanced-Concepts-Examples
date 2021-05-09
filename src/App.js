@@ -8,6 +8,8 @@ import Store from "./components/Redux/Store";
 import Users from "./components/Hooks/UseReducer/Users";
 import UsingAxios from "./components/Axios/UsingAxios";
 import InputForm from "./components/Hooks/CustomHook/InputForm";
+import User from "./components/Hooks/UseState/User";
+import HeroApp from "./components/ErrorBoundary/HeroApp";
 
 function App() {
   return (
@@ -24,9 +26,13 @@ function App() {
       <Store/>
 
       <Users/>
-      <UsingAxios/> */}
+      <UsingAxios/>
 
-      <InputForm />
+      <InputForm /> */}
+
+      
+
+      {/* <HeroApp/> */}
     </div>
   );
 }
