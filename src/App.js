@@ -11,6 +11,7 @@ import InputForm from "./components/Hooks/CustomHook/InputForm";
 import HeroApp from "./components/ErrorBoundary/HeroApp";
 import Ref from "./components/Refs/Ref";
 import UseRef from "./components/Hooks/useRef/UseRef";
+import ParentComponent from "./components/PureComponent/ParentComponent";
 
 function App() {
   return (
@@ -35,8 +36,10 @@ function App() {
 
       {/* <Ref /> */}
     
-      <UseRef/>
+      {/* <UseRef/> */}
     
+      <ParentComponent/>
+
     </div>
   );
 }
