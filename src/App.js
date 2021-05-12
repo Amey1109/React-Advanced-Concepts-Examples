@@ -13,36 +13,40 @@ import Ref from "./components/Refs/Ref";
 import UseRef from "./components/Hooks/useRef/UseRef";
 import ParentComponent from "./components/PureComponent/ParentComponent";
 import CounterEntry from "./components/ReduxThunk/CounterEntry";
+import UsersContext from "./components/Hooks/useContext/UsersContext";
 
 function App() {
   return (
     <div className="App">
       {/* <ButtonCounter />
-      <HoverCounter />
+      <HoverCounter /> */}
 
-      <ContextProvider>
+      {/* <ContextProvider>
         <ContextUser />
-      </ContextProvider>
+      </ContextProvider> */}
 
-      <Parent />
+      {/* <Parent /> */}
 
-      <Store/>
+      {/* <Store/> */}
 
-      <Users/>
-      <UsingAxios/>
+      {/* <Users/> */}
+      {/* <UsingAxios/> */}
 
-      <InputForm /> */}
+      {/* <InputForm /> */}
 
       {/* <HeroApp/> */}
 
       {/* <Ref /> */}
-    
+
       {/* <UseRef/> */}
-    
+
       {/* <ParentComponent/> */}
 
-      <CounterEntry/>
+      {/* <CounterEntry/> */}
 
+      <UsersContext />
+
+      
     </div>
   );
 }
