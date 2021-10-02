@@ -27,7 +27,7 @@ function App() {
 
       {/* <Parent /> */}
 
-      {/* <Store/> */}
+      <Store/>
 
       {/* <Users/> */}
       {/* <UsingAxios/> */}
@@ -44,7 +44,7 @@ function App() {
 
       {/* <CounterEntry/> */}
 
-      <UsersContext />
+      {/* <UsersContext /> */}
 
       
     </div>
