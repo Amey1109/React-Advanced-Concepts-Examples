@@ -14,20 +14,18 @@ import UseRef from "./components/Hooks/useRef/UseRef";
 import ParentComponent from "./components/PureComponent/ParentComponent";
 import CounterEntry from "./components/ReduxThunk/CounterEntry";
 import UsersContext from "./components/Hooks/useContext/UsersContext";
+import { Blink } from "./components/Hooks/useLayoutEffect/Blink";
 
 function App() {
   return (
     <div className="App">
       {/* <ButtonCounter />
       <HoverCounter /> */}
-
       {/* <ContextProvider>
         <ContextUser />
       </ContextProvider> */}
-
       {/* <Parent /> */}
-
-      <Store/>
+      {/* <Store/> */}
 
       {/* <Users/> */}
       {/* <UsingAxios/> */}
@@ -45,7 +43,7 @@ function App() {
       {/* <CounterEntry/> */}
 
       {/* <UsersContext /> */}
-
+      {<Blink/>}
       
     </div>
   );
